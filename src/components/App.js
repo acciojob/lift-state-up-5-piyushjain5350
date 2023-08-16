@@ -18,7 +18,7 @@ const App = () => {
           <label htmlFor="passwordInput">Password: </label>
           <input type="password" name="passwordInput"/>
           <br />
-          <input type="submit" value="Login" />
+          <button type="submit">Login</button>
         </form>}
         {
           isLoggedInd&&<p>You are logged in!</p>
