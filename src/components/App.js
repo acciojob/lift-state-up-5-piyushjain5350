@@ -11,6 +11,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+        <h1>Parent Component</h1>
         {!isLoggedInd&&<form onSubmit={SubmitFn}>
           <label htmlFor="nameInput">Username:</label>
           <input type="text" name="nameInput"/><br />
